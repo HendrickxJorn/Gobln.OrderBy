@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gobln.OrderBy", "src\Gobln.OrderBy\Gobln.OrderBy.csproj", "{32FF8CF4-3731-45FE-B8A7-7E55361A8365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gobln.OrderByTest", "test\Gobln.OrderByTest\Gobln.OrderByTest.csproj", "{21BC626D-96DA-4DC4-8E99-319534A1E682}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32FF8CF4-3731-45FE-B8A7-7E55361A8365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FF8CF4-3731-45FE-B8A7-7E55361A8365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FF8CF4-3731-45FE-B8A7-7E55361A8365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FF8CF4-3731-45FE-B8A7-7E55361A8365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BC626D-96DA-4DC4-8E99-319534A1E682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BC626D-96DA-4DC4-8E99-319534A1E682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BC626D-96DA-4DC4-8E99-319534A1E682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BC626D-96DA-4DC4-8E99-319534A1E682}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C55EC8B4-F337-484E-AE2B-CDFCC7B54738}
+	EndGlobalSection
+EndGlobal
