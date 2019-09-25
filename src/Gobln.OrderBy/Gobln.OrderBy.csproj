@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net40;net45;netcoreapp1.0;netcoreapp2.0;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net40;net45;netcoreapp1.0;netcoreapp2.0;netcoreapp3.0;netstandard2.0</TargetFrameworks>
   </PropertyGroup>
   
   <PropertyGroup>
@@ -14,7 +14,7 @@
     <AssemblyName>Gobln.OrderBy</AssemblyName>
     <RootNamespace>Gobln.OrderBy</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Description>Easy to use library to allow you to order IEnumerable or IQueryable by dynamic properties.
 Also contains a natural sort comparer.</Description>
 	<RepositoryUrl>https://github.com/HendrickxJorn/Gobln.OrderBy</RepositoryUrl>
@@ -43,12 +43,16 @@ Also contains a natural sort comparer.</Description>
     <DocumentationFile>bin\Debug\net45\Gobln.OrderBy.xml</DocumentationFile>
   </PropertyGroup>
   
-   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp1.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp1.0|AnyCPU'">
     <DocumentationFile>bin\Debug\netcoreapp1.0\Gobln.OrderBy.xml</DocumentationFile>
   </PropertyGroup>
   
-   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp2.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp2.0|AnyCPU'">
     <DocumentationFile>bin\Debug\netcoreapp2.0\Gobln.OrderBy.xml</DocumentationFile>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp3.0|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp3.0\Gobln.OrderBy.xml</DocumentationFile>
   </PropertyGroup>
   
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
@@ -69,6 +73,10 @@ Also contains a natural sort comparer.</Description>
   
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp2.0|AnyCPU'">
     <DocumentationFile>bin\Release\netcoreapp2.0\Gobln.OrderBy.xml</DocumentationFile>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp3.0|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp3.0\Gobln.OrderBy.xml</DocumentationFile>
   </PropertyGroup>
   
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
